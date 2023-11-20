@@ -20,8 +20,6 @@ var btnClose2 = document.getElementsByClassName("header-overlay")[0];
 
 var btnCloseMenu = document.getElementsByClassName("close-menu")[0];
 
-
-
 // Khi người dùng nhấp vào nút, mở modal
 btn.onclick = function () {
   modal.style.right = "0";

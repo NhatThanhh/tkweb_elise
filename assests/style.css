@@ -330,6 +330,7 @@ ol {
 .form-group.choice {
   position: relative;
   text-align: left;
+
 }
 
 .myaccount-form-login .mgs-gdpr-checkbox input[type="radio"],
@@ -443,6 +444,22 @@ ol {
   cursor: pointer;
 }
 .item-menu:hover {
+  text-decoration: underline;
+  color: #a68242;
+}
+.container-contact{
+  padding: 64px 0;
+}
+.contact-list{
+  margin: 0;
+  padding: 0;
+}
+.contact-item{
+  font-weight: 400;
+  font-size: 23px;
+  cursor: pointer;
+}
+.contact-item:hover{
   text-decoration: underline;
   color: #a68242;
 }
